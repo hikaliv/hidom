@@ -1,0 +1,55 @@
+{
+  "name": "hidom",
+  "version": "1.3.17",
+  "description": "HTML DOM Front-end BDD Test Involves React, CSS and AJAX",
+  "main": "libo/main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:hikaliv/hidom.git"
+  },
+  "keywords": [
+    "html",
+    "dom",
+    "test",
+    "bdd",
+    "react",
+    "jsdom",
+    "jquery",
+    "mocha",
+    "frontend",
+    "promise",
+    "browser",
+    "w3c",
+    "css",
+    "style",
+    "async",
+    "光宇广贞",
+    "hikaliv"
+  ],
+  "scripts": {
+    "clean": "echo '整理 npm 各插件间的依赖关系\n' && npm dedupe && npm ls --depth=0 && echo '整理完毕'",
+    "test": "gulp test --gulpfile task/gulpfile.js"
+  },
+  "author": {
+    "name": "Li Bo",
+    "email": "hikaliv@gmail.com",
+    "url": "https://github.com/hikaliv"
+  },
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/hikaliv/hidom/issues"
+  },
+  "homepage": "https://github.com/hikaliv/hidom#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "chalk": "^1.1.3",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^3.0.1",
+    "gulp-mocha": "^3.0.1"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "jsdom": "^9.7.1"
+  }
+}

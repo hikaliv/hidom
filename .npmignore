@@ -1,0 +1,39 @@
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+*.sh
+
+# OS or Editor folders
+.cache
+.project
+.settings
+.tmproj
+.idea
+nbproject
+Thumbs.db
+.eslintrc
+.gitignore
+.npmignore
+
+# Brunch/Gulp folder for temporary files.
+tmp/
+
+# Project Temporary Files
+temp/
+
+# Brunch/Gulp output folder.
+public/
+
+# Visual Studio
+.ntvs_analysis.dat
+.ntvs_analysis.dat.tmp
+jsconfig.json
+*.d.ts
